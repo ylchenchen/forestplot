@@ -10,6 +10,10 @@ library(stringr)
 #cox回归，建立模型
 model <- coxph(Surv(time, event) ~., data = dat )
 ggforest(model)
+```
+![](https://github.com/ylchenchen/forestplot/blob/main/forestplot.example.png)
+
+```
 #summary
 m = summary(model)
 colnames(m$coefficients)
