@@ -107,3 +107,4 @@ forestplot(
 )
 
 ```
+![](https://github.com/ylchenchen/forestplot/blob/main/forestplot.example2.png)
